@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Shuttle Masters",
+    "userDetails": [
+        {
+            "userName": "Rohit Tibarewal ©",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team15/Rohit.png"
+        },
+        {
+            "userName": "Harish Kumar M S",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team15/Harish.png"
+        },
+        {
+            "userName": "Abhishek Kumar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team15/Abhishek.png"
+        },
+        {
+            "userName": "Syamkumar Alathuru",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team15/Syamkumar.png"
+        },
+        {
+            "userName": "Veeranna Joni",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team15/Veeranna.png"
+        },
+        {
+            "userName": "Deeraj Yadav P",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team15/Dheeraj.png"
+        },
+        {
+            "userName": "Bindiya Murulidhar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team15/Bindiya.png"
+        },
+        {
+            "userName": "Ashwini Nandigudi Prasanna Kumar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team15/Ashwini.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

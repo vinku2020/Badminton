@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "BEN -10",
+    "userDetails": [
+        {
+            "userName": "Sanath Hosur Ramesh ©",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team10/Sanath.png"
+        },
+        {
+            "userName": "Bibhuti Bhusan Sahoo",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team10/Bibhuti.png"
+        },
+        {
+            "userName": "Manu Narayan Yadahalli",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team10/Manu.png"
+        },
+        {
+            "userName": "Vinay Gupta",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team10/Vinay.png"
+        },
+        {
+            "userName": "Sumanth Lakshman",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team10/Sumanth.png"
+        },
+        {
+            "userName": "Syed Mehaboob Wasim",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team10/Syed.png"
+        },
+        {
+            "userName": "Archana E",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team10/Archana.jpg"
+        },
+        {
+            "userName": "Aishwarya Maiya",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team10/Aishwarya.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

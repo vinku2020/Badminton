@@ -1,0 +1,29 @@
+{
+    "success": "true",
+    "teamDetails" : [
+        {
+            "teamName" : "team1"
+        },
+        {
+            "teamName" : "team2"
+        },
+        {
+            "teamName" : "team3"
+        },
+        {
+            "teamName" : "team4"
+        },
+        {
+            "teamName" : "team5"
+        },
+        {
+            "teamName" : "team6"
+        },
+        {
+            "teamName" : "team7"
+        },
+        {
+            "teamName" : "team8"
+        }
+    ]
+}

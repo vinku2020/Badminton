@@ -1,0 +1,57 @@
+.fixture-card {
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.card-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+    padding: 4px !important;
+}
+
+.images {
+    width: 64px;
+}
+
+.tie-number {
+    font-weight: 400;
+    font-size: larger;
+}
+
+.tie-details {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.more-details{
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.padding-right-24 {
+    padding-right: 24px;
+}
+
+.details-tr {
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+.tr:nth-child(even) {
+    background-color: grey;
+}

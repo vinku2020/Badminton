@@ -1,0 +1,50 @@
+{
+    "success": "true",
+    "teamName": "Serves You Right!",
+    "userDetails": [
+        {
+            "userName": "Pradeepa W ©",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team16/Pradeepa.jpg"
+        },
+        {
+            "userName": "Manoj S",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team16/Manoj.png"
+        },
+        {
+            "userName": "Raghavendra Prasanth Putcha",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team16/Raghavendra.png"
+        },
+        {
+            "userName": "Koteesh V T",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team16/Koteesh.png"
+        },
+        {
+            "userName": "Rohith S",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team16/Rohith.png"
+        },
+        {
+            "userName": "Aishwary Khobragade",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team16/Aishwary.png"
+        },
+        {
+            "userName": "Namita Maheshwari",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team16/Namita.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Racketeers",
+    "userDetails": [
+        {
+            "userName": "Arpit Thakur",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team9/Arpit.jpg"
+        },
+        {
+            "userName": "Sandeep Vasudevan",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team9/Sandeep.png"
+        },
+        {
+            "userName": "Praveen Naik",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team9/Praveen.png"
+        },
+        {
+            "userName": "Sumit Kejriwal",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team9/Sumit.png"
+        },
+        {
+            "userName": "Manas Das",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team9/Manas.png"
+        },
+        {
+            "userName": "Tarak Nath Medari",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team9/Tarak.png"
+        },
+        {
+            "userName": "Mohita Arora ©",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team9/Mohita.png"
+        },
+        {
+            "userName": "Vidya J S",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team9/Vidya.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

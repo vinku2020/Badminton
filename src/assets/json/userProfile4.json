@@ -1,0 +1,50 @@
+{
+    "success": "true",
+    "teamName": "V R MAASS PP(L)",
+    "userDetails": [
+        {
+            "userName": "Vinay Kumar L S",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team4/vinku.jpg"
+        },
+        {
+            "userName": "Sharath D V",
+            "gameLevel": "Intermediate",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team4/Sharath.jpeg"
+        },
+        {
+            "userName": "Sai Achyuth M",
+            "gameLevel": "Intermediate",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team4/sai.png"
+        },
+        {
+            "userName": "Mustafa Lateef",
+            "gameLevel": "Beginer",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team4/Mustafa.jpg"
+        },
+        {
+            "userName": "Ashwin Subramaniam Hariharan",
+            "gameLevel": "Beginer",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team4/Ashwin.png"
+        },
+        {
+            "userName": "Pooja Devang S D",
+            "gameLevel": "Beginer",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team4/Pooja.jpeg"
+        },
+        {
+            "userName": "Pragati J Chinnayya",
+            "gameLevel": "Intermediate",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team4/Pragathi.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

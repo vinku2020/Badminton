@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Shuttlers",
+    "userDetails": [
+        {
+            "userName": "Prashanth Venkat Kumar Sunkari ©",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team8/PrashanthSunkari.jpg"
+        },
+        {
+            "userName": "Somasekhar V",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team8/Somashekar.png"
+        },
+        {
+            "userName": "Gobinath N",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team8/Gobinath.png"
+        },
+        {
+            "userName": "Rohit Dabas",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team8/Rohit.png"
+        },
+        {
+            "userName": "Rakesh B S",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team8/Rakesh.png"
+        },
+        {
+            "userName": "Santhosh N R",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team8/Santhosh.png"
+        },
+        {
+            "userName": "Jyoti Shyadaguppi",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team8/jyoti_shyadaguppi.jpg"
+        },
+        {
+            "userName": "Lakshmi Madhuri Vadaparthi",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team8/Lakshmi.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

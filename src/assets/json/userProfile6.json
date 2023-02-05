@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Lords of the Strings",
+    "userDetails": [
+        {
+            "userName": "Naveen Kumar MC",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team6/Naveen KumarMC.jpg"
+        },
+        {
+            "userName": "Varun Kumar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team6/Varun Kumar.jpg"
+        },
+        {
+            "userName": "Vaidyanathan Prabakaran",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team6/VaidyanathanP.jpg"
+        },
+        {
+            "userName": "Gaurav Jain",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team6/Gaurav.png"
+        },
+        {
+            "userName": "Ashwin S S",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team6/Ashwin.jpg"
+        },
+        {
+            "userName": "Rithesh Reddy Guddeti",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team6/Rithesh.png"
+        },
+        {
+            "userName": "Vindya Bhavanishankar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team6/Vindya.png"
+        },
+        {
+            "userName": "Kalavathi Golla",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team6/Kala.jpg"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

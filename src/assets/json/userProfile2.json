@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Dare Doubles",
+    "userDetails": [
+        {
+            "userName": "Sanjan Bora ©",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team2/Sanjan.jpg"
+        },
+        {
+            "userName": "Vishnuvardhan Katta",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team2/Vishnuvardhan.png"
+        },
+        {
+            "userName": "Sanjay Kumar T",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team2/Sanjay.jpg"
+        },
+        {
+            "userName": "Adarsh Kumar Singh",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team2/Adarsh.png"
+        },
+        {
+            "userName": "Aniket Ganesh Acharya",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team2/Aniket.png"
+        },
+        {
+            "userName": "Vijayakanth Velayudham",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team2/Vijayakanth.png"
+        },
+        {
+            "userName": "Pratibha Kulkarni",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team2/Pratibha.jpg"
+        },
+        {
+            "userName": "Supriya CR",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team2/Supriya.jpg"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

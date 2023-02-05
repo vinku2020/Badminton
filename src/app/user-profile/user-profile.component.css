@@ -1,0 +1,40 @@
+.stats {
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+}
+
+.score_label {
+    padding-left: 15px;
+}
+
+.score_split {
+    padding-left: 8px;
+}
+
+.score {
+    position: absolute;
+    right: 15px;
+}
+
+.main-content{
+    margin-top: 35px;
+}
+
+.padding-top {
+    padding-top: 35px;
+}
+
+.padding-top-15 {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.background_color {
+    background-color: white;
+}
+
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #00bcd4;
+}

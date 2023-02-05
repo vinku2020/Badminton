@@ -1,0 +1,24 @@
+<div class="container custom-container">
+    <div class="col-md-12">
+      <h3 class="mb-3 text-center">Add fixture</h3>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="fixtureDetails.matchNumber" class="form-control" placeholder="Match number">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="fixtureDetails.groupName" class="form-control" placeholder="Group Name">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="fixtureDetails.team1" class="form-control" placeholder="Team1">
+      </div>
+      <div class="form-group">
+        <input type="text" [(ngModel)]="fixtureDetails.team2" class="form-control" placeholder="Team2">
+      </div>
+      <div class="form-group">
+        <button class="btn btn-success btn-lg btn-block" (click)="addEntry(fixtureDetails)">Add fixture</button>
+      </div>
+  
+    </div>
+  </div>

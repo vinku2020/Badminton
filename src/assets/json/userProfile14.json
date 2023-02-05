@@ -1,0 +1,62 @@
+{
+    "success": "true",
+    "teamName": "SwAG Swingers",
+    "userDetails": [
+        {
+            "userName": "Sanjay GS",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team14/SanjayGS.jpg"
+        },
+        {
+            "userName": "Rakesh Kalkudige Subramanya",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/RakeshKS.jpg"
+        },
+        {
+            "userName": "Harsha R",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/HarshaR.png"
+        },
+        {
+            "userName": "Nikhil Khanna",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/NikhilKhanna.png"
+        },
+        {
+            "userName": "Sanjay Patil",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/SanjayPatil.png"
+        },
+        {
+            "userName": "Rinku Hazarika",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/Rinku.jpg"
+        },
+        {
+            "userName": "Priya Gupta©",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/PriyaGupta.jpg"
+        },
+        {
+            "userName": "Shambhavi B M",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/Shambhavi.jpg"
+        },
+        {
+            "userName": "Lakshitha Ramesh",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team14/Lakshitha.jpg"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

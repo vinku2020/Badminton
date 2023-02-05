@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { AllTeamProfile } from 'app/model/team.profile.model';
+import { RestService } from 'app/services/rest.service';
 import * as Chartist from 'chartist';
+import { concatMap, map, toArray } from 'rxjs';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,7 +11,17 @@ import * as Chartist from 'chartist';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private restService: RestService) { }
+  allTeamProfile: AllTeamProfile[];
+
+  getuserProfile() {
+    return this.restService.get('allTeamProfile')
+    .pipe(
+        concatMap((res: any) => res.userDetails),
+        map(userDetails => new AllTeamProfile(userDetails)),
+        toArray()
+      );
+  }
   startAnimationForLineChart(chart){
       let seq: any, delays: any, durations: any;
       seq = 0;
@@ -66,6 +79,10 @@ export class DashboardComponent implements OnInit {
       seq2 = 0;
   };
   ngOnInit() {
+    this.getuserProfile()
+      .subscribe((data) => {
+        this.allTeamProfile = data;
+      });
       /* ----------==========     Daily Sales Chart initialization For Documentation    ==========---------- */
 
       const dataDailySalesChart: any = {

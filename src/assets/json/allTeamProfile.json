@@ -1,0 +1,117 @@
+{
+    "userDetails": [
+        {
+            "teamName": "Lords of the Strings",
+            "groupName": "Group A",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo1.png"
+        },
+        {
+            "teamName": "SPARTANS",
+            "groupName": "Group A",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo2.png"
+        },
+        {
+            "teamName": "Smash11",
+            "groupName": "Group A",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo3.png"
+        },
+        {
+            "teamName": "V R MASS PP(L)",
+            "groupName": "Group A",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo4.png"
+        },
+        {
+            "teamName": "Dare Doubles",
+            "groupName": "Group B",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo5.png"
+        },
+        {
+            "teamName": "Shuttlers",
+            "groupName": "Group B",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo6.png"
+        },
+        {
+            "teamName": "Hercules",
+            "groupName": "Group B",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo7.png"
+        },
+        {
+            "teamName": "BEN -10",
+            "groupName": "Group B",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo8.png"
+        },
+        {
+            "teamName": "Smash Wizards",
+            "groupName": "Group C",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo9.png"
+        },
+        {
+            "teamName": "Shuttle Masters",
+            "groupName": "Group C",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo10.png"
+        },
+        {
+            "teamName": "SwAG Swingers",
+            "groupName": "Group C",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo11.png"
+        },
+        {
+            "teamName": "Serves You Right!",
+            "groupName": "Group C",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo12.png"
+        },
+        {
+            "teamName": "Shuttle Swaggers",
+            "groupName": "Group D",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo13.png"
+        },
+        {
+            "teamName": "Racketeers",
+            "groupName": "Group D",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo14.png"
+        },
+        {
+            "teamName": "Shuttle Smashers",
+            "groupName": "Group D",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo15.png"
+        },
+        {
+            "teamName": "Hot Shots",
+            "groupName": "Group D",
+            "score": "0-0-0-0-0",
+            "finalScore":"0",
+            "urlLogo":"./assets/img/logos/logo16.png"
+        }
+        
+    ]
+}

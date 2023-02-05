@@ -1,97 +1,98 @@
 <div class="main-content">
   <div class="container-fluid">
     <div class="card">
-        <div class="card-header card-header-danger">
+        <div class="card-header card-header-info">
             <h4 class="card-title">Material Dashboard Heading</h4>
             <p class="card-category">Created using Roboto Font Family</p>
         </div>
         <div class="card-body">
             <div id="typography">
                 <div class="card-title">
-                    <h2>Typography</h2>
+                    <h2>Fixtures</h2>
                 </div>
-                <div class="row">
-                    <div class="tim-typo">
-                        <h1>
-                            <span class="tim-note">Header 1</span>The Life of Material Dashboard </h1>
-                    </div>
-                    <div class="tim-typo">
-                        <h2>
-                            <span class="tim-note">Header 2</span>The Life of Material Dashboard</h2>
-                    </div>
-                    <div class="tim-typo">
-                        <h3>
-                            <span class="tim-note">Header 3</span>The Life of Material Dashboard</h3>
-                    </div>
-                    <div class="tim-typo">
-                        <h4>
-                            <span class="tim-note">Header 4</span>The Life of Material Dashboard</h4>
-                    </div>
-                    <div class="tim-typo">
-                        <h5>
-                            <span class="tim-note">Header 5</span>The Life of Material Dashboard</h5>
-                    </div>
-                    <div class="tim-typo">
-                        <h6>
-                            <span class="tim-note">Header 6</span>The Life of Material Dashboard</h6>
-                    </div>
-                    <div class="tim-typo">
-                        <p>
-                            <span class="tim-note">Paragraph</span>
-                            I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
-                    </div>
-                    <div class="tim-typo">
-                        <span class="tim-note">Quote</span>
-                        <blockquote class="blockquote">
-                            <p>
-                                I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.
-                            </p>
-                            <small>
-                                Kanye West, Musician
-                            </small>
-                        </blockquote>
-                    </div>
-                    <div class="tim-typo">
-                        <span class="tim-note">Muted Text</span>
-                        <p class="text-muted">
-                            I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
-                        </p>
-                    </div>
-                    <div class="tim-typo">
-                        <span class="tim-note">Primary Text</span>
-                        <p class="text-primary">
-                            I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                    </div>
-                    <div class="tim-typo">
-                        <span class="tim-note">Info Text</span>
-                        <p class="text-info">
-                            I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                    </div>
-                    <div class="tim-typo">
-                        <span class="tim-note">Success Text</span>
-                        <p class="text-success">
-                            I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                    </div>
-                    <div class="tim-typo">
-                        <span class="tim-note">Warning Text</span>
-                        <p class="text-warning">
-                            I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...
-                        </p>
-                    </div>
-                    <div class="tim-typo">
-                        <span class="tim-note">Danger Text</span>
-                        <p class="text-danger">
-                            I will be the leader of a company that ends up being worth billions of dollars, because I got the answers... </p>
-                    </div>
-                    <div class="tim-typo">
-                        <h2>
-                            <span class="tim-note">Small Tag</span>
-                            Header with small subtitle
-                            <br>
-                            <small>Use "small" tag for the headers</small>
-                        </h2>
-                    </div>
-                </div>
+                <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start">
+                    <mat-tab label="Group stage">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>
+                                        Match Number
+                                    </th>
+                                    <th colspan="5">
+                                        Match Details
+                                    </th>
+                                    <th>
+                                        Status
+                                    </th>
+                                    <th>
+                                        More details
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <ng-container *ngFor="let group of groupStageFixture">
+                                        <tr class="card-shadow">
+                                            <td class="tie-number">
+                                                <div> {{group.matchNumber}} </div>
+                                            </td>
+                                            <td>
+                                                <div class="card-icon">
+                                                    <img class="images" src="{{getLogo(group.team1)}}" />
+                                                </div>
+                                            </td>
+                                            <td class="tie-details">
+                                                {{group.team1}}
+                                            </td>
+                                            <td class="tie-details">
+                                                {{group.score}}
+                                            </td>
+                                            <td class="tie-details">
+                                                {{group.team2}}
+                                            </td>
+                                            <td>
+                                                <div class="card-icon">
+                                                    <img class="images" src="{{getLogo(group.team2)}}" />
+                                                </div>
+                                            </td>
+                                            <td>
+                                                {{group.status}}
+                                            </td>
+                                            <td>
+                                                <button (click)="showInput(group.matchNumber)"> show</button>
+                                                <button (click)="hideDetails()"> Hide</button>
+                                            </td>
+                                        </tr>
+                                        <tr *ngFor="let game of group.matchDetails" id="{{group.matchNumber}}">
+                                            <td colspan="8" class="details-tr" *ngIf="showDetails === group.matchNumber">
+                                                <div class="row more-details">
+                                                    <div class="col-lg-1">
+                                                        {{game.category}}
+                                                    </div>
+                                                    <div class="col-lg-* padding-right-24">
+                                                        {{game.team1Players}}
+                                                    </div>
+                                                    <div class="col-lg-* padding-right-24">
+                                                        {{game.team1Score}}
+                                                    </div>
+                                                    <div class="col-lg-* padding-right-24">
+                                                        -
+                                                    </div>
+                                                    <div class="col-lg-* padding-right-24">
+                                                        {{game.team2Score}}
+                                                    </div>
+                                                    <div class="col-lg-* padding-right-24">
+                                                        {{game.team2Players}}
+                                                    </div>
+                                                </div> 
+                                            </td>                                       
+                                        </tr>
+                                     </ng-container>
+                                </tbody>
+                            </table>
+                            <app-group-stage-fixture></app-group-stage-fixture>
+                        </div>
+                    </mat-tab>
+                    <mat-tab label="KnockOut stage">Content 2</mat-tab>
+                </mat-tab-group>
             </div>
         </div>
     </div>

@@ -1,0 +1,105 @@
+{
+    "success": "true",
+    "groupMatchStage": [
+        {
+            "matchNumber": "M1",
+            "groupName": "Group A",
+            "team1":"Smash11",
+            "team2":"V R MASS PP(L)",
+            "score": "V/S",
+            "team1Logo":"./assets/img/logos/logo1.png",
+            "team2Logo":"./assets/img/logos/logo2.png",
+            "winner":"",
+            "matchDetails" : [
+                {
+                    "category":"MX",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+
+                },
+                {
+                    "category":"MS1",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                },
+                {
+                    "category":"MS2",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                },
+                {
+                    "category":"WS",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                },
+                {
+                    "category":"MD",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                }
+            ],
+            "status": "Not scheduled"
+        },
+        {
+            "matchNumber": "M2",
+            "groupName": "Group B",
+            "team1":"Dare Doubles",
+            "team2":"Shuttlers",
+            "score": "4-3",
+            "team1Logo":"./assets/img/logos/logo3.png",
+            "team2Logo":"./assets/img/logos/logo4.png",
+            "finalScore":"22",
+            "winner":"",
+            "matchDetails" : [
+                {
+                    "category":"MX",
+                    "team1Players":"Sanjay Kumar T & Supriya CR",
+                    "team2Players":"Rohit Dabas & Jyoti Shyadaguppi",
+                    "team1Score":"18(1)",
+                    "team2Score":"21(0)"
+
+                },
+                {
+                    "category":"MS1",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                },
+                {
+                    "category":"MS2",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                },
+                {
+                    "category":"WS",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                },
+                {
+                    "category":"MD",
+                    "team1Players":"",
+                    "team2Players":"",
+                    "team1Score":"",
+                    "team2Score":""
+                }
+            ],
+            "status": "InProgress"
+        }
+    ],
+    "message": "Service execution completed sucessfully."
+}

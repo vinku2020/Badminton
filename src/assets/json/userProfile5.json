@@ -1,0 +1,57 @@
+{
+    "success": "true",
+    "teamName": "Shuttle Swaggers",
+    "userDetails": [
+        {
+            "userName": "Prasanta Kumar Malik",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team5/prasanta_kumar_malik.jpeg"
+        },
+        {
+            "userName": "Deepesh Adwani",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team5/deepesh_adwani.jpeg"
+        },
+        {
+            "userName": "Mohana Siva Manikanta Reddy Allu",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team5/Mohana.png"
+
+        },
+        {
+            "userName": "Masroor Alam",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team5/Masroor.png"
+        },
+        {
+            "userName": "Krashnat Kallappa Gurav",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team5/Krashnat.png"
+        },
+        {
+            "userName": "Radhika R",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team5/Radhika.png"
+        },
+        {
+            "userName": "Sephali Smrutisikha",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team5/Sephali_Smrutisikha.jpg"
+        },
+        {
+            "userName": "Jyoti Ranjan Pradhan ©",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team5/jyoti_pradhan.jpg"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

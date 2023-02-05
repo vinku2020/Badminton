@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Hercules",
+    "userDetails": [
+        {
+            "userName": "Rajnish Raj",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team12/Rajnish.png"
+        },
+        {
+            "userName": "Ashirvad Kumar Mishra ©",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team12/Ashirvad.png"
+        },
+        {
+            "userName": "Muthu Kumar Thanga Muthu",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team12/Muthu.png"
+        },
+        {
+            "userName": "Ranjith Pulluru",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team12/Ranjith.png"
+        },
+        {
+            "userName": "Sumanth Arehalli Vijay Kumar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team12/Sumanth.png"
+        },
+        {
+            "userName": "Vijay Kumar Ramakrishnaiah",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team12/Vijay.png"
+        },
+        {
+            "userName": "Priya Jagadish Hemadri",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team12/PriyaJHemadri.png"
+        },
+        {
+            "userName": "Pretty Joyce G",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team12/Joyce.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "SPARTANS",
+    "userDetails": [
+        {
+            "userName": "Vipin Bhaskaran",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team13/Vipin.png"
+        },
+        {
+            "userName": "Vikneshwar Anandan",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team13/Vikneshwar.png"
+        },
+        {
+            "userName": "Dillip Kumar Palai ©",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team13/DillipP.jpg"
+        },
+        {
+            "userName": "Sadwal Patel Azhar Basha",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team13/Azhar.jpg"
+        },
+        {
+            "userName": "Adarsh KS",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team13/Adarsh.jpg"
+        },
+        {
+            "userName": "Santosh Manvi",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team13/Santosh.png"
+        },
+        {
+            "userName": "Megha Raj",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team13/MeghaRaj.jpg"
+        },
+        {
+            "userName": "Sirisha R",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team13/Sirisha R.jpg"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

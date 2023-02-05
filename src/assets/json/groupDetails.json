@@ -1,0 +1,201 @@
+{
+    "success": "true",
+    "userDetails" : [
+        {
+            "groupName": "Group A",
+            "groupTeams": [
+                {
+                    "teamName": "Team6",
+                    "nickName": "Lords of the Strings",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo6.png"
+                },
+                {
+                    "teamName": "Team13",
+                    "nickName": "SPARTANS",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo13.png"
+                },
+                {
+                    "teamName": "Team11",
+                    "nickName": "Smash11",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo11.png"
+                },
+                {
+                    "teamName": "Team4",
+                    "nickName": "V R MASS PP(L)",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo4.png"
+                }
+            ]
+        },
+        {
+            "groupName": "Group B",
+            "groupTeams": [
+                {
+                    "teamName": "Team2",
+                    "nickName": "Dare Doubles",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo2.png"
+                },
+                {
+                    "teamName": "Team8",
+                    "nickName": "Shuttlers",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo8.png"
+                },
+                {
+                    "teamName": "Team12",
+                    "nickName": "Hercules",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo12.png"
+                },
+                {
+                    "teamName": "Team10",
+                    "nickName": "BEN-10",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo10.png"
+                }
+            ]
+        },
+        {
+            "groupName": "Group C",
+            "groupTeams": [
+                {
+                    "teamName": "Team3",
+                    "nickName": "Smash Wizards",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo3.png"
+                },
+                {
+                    "teamName": "Team15",
+                    "nickName": "Rohit",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo15.png"
+                },
+                {
+                    "teamName": "Team14",
+                    "nickName": "SwAG Swingers",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo14.png"
+                },
+                {
+                    "teamName": "Team16",
+                    "nickName": "Serves You Right!",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo16.png"
+                }
+            ]
+        },
+        {
+            "groupName": "Group D",
+            "groupTeams": [
+                {
+                    "teamName": "Team5",
+                    "nickName": "Shuttle Swaggers",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo5.png"
+                },
+                {
+                    "teamName": "Team9",
+                    "nickName": "Racketeers",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo9.png"
+                },
+                {
+                    "teamName": "Team7",
+                    "nickName": "Shuttle Smashers",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo7.png"
+                },
+                {
+                    "teamName": "Team1",
+                    "nickName": "Hot Shots",
+                    "played": "0",
+                    "won": "0",
+                    "lost": "0",
+                    "trumpWon": "0",
+                    "trumpLost": "0",
+                    "totalPoints": "0",
+                    "urlLogo":"./assets/img/logos/logo1.png"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "success": "true",
+    "teamName": "Shuttle Smashers",
+    "userDetails": [
+        {
+            "userName": "Atul Pratap Singh",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team7/Atul.png"
+        },
+        {
+            "userName": "Manigandan Thangavel ©",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Mani.jpg"
+        },
+        {
+            "userName": "Anil Kumar Pamisetty",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Anil.jpeg"
+        },
+        {
+            "userName": "Chethan B G",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Chethan.png"
+        },
+        {
+            "userName": "Sonu Kumar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Sonu.png"
+        },
+        {
+            "userName": "Sandeep Patel",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Sandeep.png"
+        },
+        {
+            "userName": "Swetapadma Mohapatra",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Swetapadma.png"
+        },
+        {
+            "userName": "Poornima Ajay Gachhi",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Poornima.png"
+        },
+        {
+            "userName": "Babitha Loganathan",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team7/Babitha.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

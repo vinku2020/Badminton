@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Hot Shots",
+    "userDetails": [
+        {
+            "userName": "Nikhilesh Sinha",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team1/Nikhilesh.png"
+        },
+        {
+            "userName": "Sreekanth Siddapur Channakeshava",
+            "gameLevel": "Intermediate",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team1/Sreekanth.jpeg"
+        },
+        {
+            "userName": "Ajay Singh Bamel",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team1/Ajay.png"
+        },
+        {
+            "userName": "Santhosh Purushothaman",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team1/Santhosh.png"
+        },
+        {
+            "userName": "Anandhkumar Vijayakumar ",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team1/Anandhkumar.jpg"
+        },
+        {
+            "userName": "Chandan A H ©",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team1/Chandan.jpg"
+        },
+        {
+            "userName": "Muskan Gupta",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team1/Muskan.jpg"
+        },
+        {
+            "userName": "Sreevidya Ponnuru",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team1/Sreevidya.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}

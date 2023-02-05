@@ -1,0 +1,56 @@
+{
+    "success": "true",
+    "teamName": "Smash11",
+    "userDetails": [
+        {
+            "userName": "Jaideep Pegu ©",
+            "gameLevel": "Advanced",
+            "score": "30-13-11-5-1",
+            "profileLogo": "./assets/img/team/Team11/Jaideep.jfif"
+        },
+        {
+            "userName": "Nandha Kumar M",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team11/Nandha.png"
+        },
+        {
+            "userName": "Hemant Prajapati",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team11/Hemant.png"
+        },
+        {
+            "userName": "Sriharsha Nalagatla",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team11/Sriharsha.png"
+        },
+        {
+            "userName": "Rohan Kumar",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team11/Rohan.jpeg"
+        },
+        {
+            "userName": "Sandeep Lati",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team11/Sandeep.jpg"
+        },
+        {
+            "userName": "Poonam Gupta",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team11/Poonam.jpg"
+        },
+        {
+            "userName": "Lekhashree Pandit",
+            "gameLevel": "Advanced",
+            "score": "",
+            "profileLogo": "./assets/img/team/Team11/Lekhashree.png"
+        }
+    ],
+    "totalUsers": 5,
+    "message": "Service execution completed sucessfully."
+}
