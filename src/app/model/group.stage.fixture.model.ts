@@ -2,6 +2,7 @@ import { FormArray, FormControl, FormGroup } from "@angular/forms";
 
 export class GroupStageFixture {
 
+    id: number;
     matchNumber: string;
     team1: string;
     team2: string;
@@ -15,6 +16,7 @@ export class GroupStageFixture {
     status: string;
 
     constructor(fixture) {
+        this.id = fixture.id;
         this.matchNumber = fixture.matchNumber;
         this.team1 = fixture.team1;
         this.team2 = fixture.team2;

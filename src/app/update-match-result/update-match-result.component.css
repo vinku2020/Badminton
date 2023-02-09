@@ -1,0 +1,29 @@
+.row-style {
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 24px;
+}
+.padding-2 {
+    padding: 2rem;
+}
+
+.padding-1 {
+    padding: 1rem;
+}
+
+.result-header {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: lavender;
+}
+
+.result-content {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.reset-margin {
+    margin-top: unset;
+    padding: unset;
+}

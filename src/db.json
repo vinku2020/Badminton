@@ -1,0 +1,1785 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Black Widowasdf",
+      "email": "black-widow@mcu.com",
+      "phone": "001-123-4568"
+    },
+    {
+      "name": "Digamber Singhaa",
+      "email": "digambersingh126@gmail.com",
+      "phone": "09717172811",
+      "id": 4
+    },
+    {
+      "name": "Digamber Singh",
+      "email": "digambersingh126@gmail.com",
+      "phone": "09717172811",
+      "id": 5
+    },
+    {
+      "name": "Software AG",
+      "email": "vinay.k899@gmail.com",
+      "phone": "+919620563925",
+      "id": 6
+    },
+    {
+      "matchNumber": "M3",
+      "groupName": "GroupC",
+      "team1": "Test1",
+      "team2": "Test2",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MX",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "asd",
+      "email": "asda",
+      "phone": "89",
+      "id": 8
+    }
+  ],
+  "userDetails": [
+    {
+      "teamName": "Lords of the Strings",
+      "groupName": "Group A",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo1.png"
+    },
+    {
+      "teamName": "SPARTANS",
+      "groupName": "Group A",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo2.png"
+    },
+    {
+      "teamName": "Smash11",
+      "groupName": "Group A",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo3.png"
+    },
+    {
+      "teamName": "V R MASS PP(L)",
+      "groupName": "Group A",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo4.png"
+    },
+    {
+      "teamName": "Dare Doubles",
+      "groupName": "Group B",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo5.png"
+    },
+    {
+      "teamName": "Shuttlers",
+      "groupName": "Group B",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo6.png"
+    },
+    {
+      "teamName": "Hercules",
+      "groupName": "Group B",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo7.png"
+    },
+    {
+      "teamName": "BEN -10",
+      "groupName": "Group B",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo8.png"
+    },
+    {
+      "teamName": "Smash Wizards",
+      "groupName": "Group C",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo9.png"
+    },
+    {
+      "teamName": "Shuttle Masters",
+      "groupName": "Group C",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo10.png"
+    },
+    {
+      "teamName": "SwAG Swingers",
+      "groupName": "Group C",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo11.png"
+    },
+    {
+      "teamName": "Serves You Right!",
+      "groupName": "Group C",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo12.png"
+    },
+    {
+      "teamName": "Shuttle Swaggers",
+      "groupName": "Group D",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo13.png"
+    },
+    {
+      "teamName": "Racketeers",
+      "groupName": "Group D",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo14.png"
+    },
+    {
+      "teamName": "Shuttle Smashers",
+      "groupName": "Group D",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo15.png"
+    },
+    {
+      "teamName": "Hot Shots",
+      "groupName": "Group D",
+      "score": "0-0-0-0-0",
+      "finalScore": "0",
+      "urlLogo": "./assets/img/logos/logo16.png"
+    }
+  ],
+  "groupMatchStage": [
+    {
+      "id": 1,
+      "matchNumber": "M1",
+      "groupName": "Group A",
+      "team1": "Smash11",
+      "team2": "V R MASS PP(L)",
+      "score": "V/S",
+      "team1Logo": "./assets/img/logos/logo1.png",
+      "team2Logo": "./assets/img/logos/logo2.png",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MX",
+          "team1Players": "vinay",
+          "team2Players": "player2",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "player",
+          "team2Players": "sadf",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "asd",
+          "team2Players": "asd",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "asd",
+          "team2Players": "asd",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "asd",
+          "team2Players": "asd",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "matchNumber": "M2",
+      "groupName": "Group B",
+      "team1": "Dare Doubles",
+      "team2": "Shuttlers",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "finalScore": "22",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MX",
+          "team1Players": "Player1",
+          "team2Players": "Player2",
+          "team1Score": "21",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "Player11",
+          "team2Players": "Player21",
+          "team1Score": "21",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "Player12",
+          "team2Players": "Player22",
+          "team1Score": "21",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "Player13",
+          "team2Players": "Player23",
+          "team1Score": "21",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "Player14",
+          "team2Players": "Player24",
+          "team1Score": "21",
+          "team2Score": ""
+        }
+      ],
+      "status": "Completed"
+    },
+    {
+      "matchNumber": "M3",
+      "groupName": "Group C",
+      "team1": "Smash Wizards",
+      "team2": "Shuttle Masters",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "prasal",
+          "team2Players": "vikneshwar",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "vinay & pooj",
+          "team2Players": "Sharath",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "Santhosh",
+          "team2Players": "raj",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "asd",
+          "team2Players": "ds",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "sd",
+          "team2Players": "sd",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Completed",
+      "id": 3
+    },
+    {
+      "matchNumber": "M4",
+      "groupName": "Group D",
+      "team1": "Shuttle Smashers",
+      "team2": "Hot Shots",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 4
+    },
+    {
+      "matchNumber": "M5",
+      "groupName": "GroupA",
+      "team1": "Lords of the Strings",
+      "team2": "SPARTANS",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 5
+    },
+    {
+      "matchNumber": "M6",
+      "groupName": "GroupB",
+      "team1": "Hercules",
+      "team2": "BEN -10",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 6
+    },
+    {
+      "matchNumber": "M7",
+      "groupName": "Group C",
+      "team1": "SwAG Swingers",
+      "team2": "Serves You Right!",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 7
+    },
+    {
+      "matchNumber": "M8",
+      "groupName": "Group D",
+      "team1": "Shuttle Swaggers",
+      "team2": "Racketeers",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 8
+    },
+    {
+      "matchNumber": "M9",
+      "groupName": "Group A",
+      "team1": "Lords of the Strings",
+      "team2": "Smash11",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 9
+    },
+    {
+      "matchNumber": "M10",
+      "groupName": "Group B",
+      "team1": "Dare Doubles",
+      "team2": "Hercules",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 10
+    },
+    {
+      "matchNumber": "M11",
+      "groupName": "Group C",
+      "team1": "Smash Wizards",
+      "team2": "SwAG Swingers",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 11
+    },
+    {
+      "matchNumber": "M12",
+      "groupName": "Group D",
+      "team1": "Shuttle Swaggers",
+      "team2": "Shuttle Smashers",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 12
+    },
+    {
+      "matchNumber": "M13",
+      "groupName": "Group A",
+      "team1": "SPARTANS",
+      "team2": "V R MASS PP(L)",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 13
+    },
+    {
+      "matchNumber": "M14",
+      "groupName": "Group B",
+      "team1": "Shuttlers",
+      "team2": "BEN -10",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 14
+    },
+    {
+      "matchNumber": "M15",
+      "groupName": "Group C",
+      "team1": "Shuttle Masters",
+      "team2": "Serves You Right!",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 15
+    },
+    {
+      "matchNumber": "M16",
+      "groupName": "Group D",
+      "team1": "Racketeers",
+      "team2": "Hot Shots",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 16
+    },
+    {
+      "matchNumber": "M17",
+      "groupName": "Group A",
+      "team1": "SPARTANS",
+      "team2": "Smash11",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 17
+    },
+    {
+      "matchNumber": "M18",
+      "groupName": "Group B",
+      "team1": "Dare Doubles",
+      "team2": "BEN -10",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 18
+    },
+    {
+      "matchNumber": "M19",
+      "groupName": "Group C",
+      "team1": "Smash Wizards",
+      "team2": "Serves You Right!",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 19
+    },
+    {
+      "matchNumber": "M20",
+      "groupName": "Group D",
+      "team1": "Shuttle Swaggers",
+      "team2": "Hot Shots",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 20
+    },
+    {
+      "matchNumber": "M21",
+      "groupName": "Group A",
+      "team1": "Lords of the Strings",
+      "team2": "V R MASS PP(L)",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 21
+    },
+    {
+      "matchNumber": "M22",
+      "groupName": "Group B",
+      "team1": "Shuttlers",
+      "team2": "Hercules",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 22
+    },
+    {
+      "matchNumber": "M23",
+      "groupName": "Group C",
+      "team1": "Shuttle Masters",
+      "team2": "SwAG Swingers",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 23
+    },
+    {
+      "matchNumber": "M24",
+      "groupName": "Group D",
+      "team1": "Racketeers",
+      "team2": "Shuttle Smashers",
+      "score": "V/S",
+      "team1Logo": "",
+      "team2Logo": "",
+      "winner": "",
+      "matchDetails": [
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS1",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MS2",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "WS",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        },
+        {
+          "category": "MD",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
+          "team2Score": ""
+        }
+      ],
+      "status": "Not scheduled",
+      "id": 24
+    }
+  ],
+  "groupTeams": [
+    {
+      "id": "1",
+      "groupName": "Group A",
+      "teamName": "Team6",
+      "nickName": "Lords of the Strings",
+      "played": 1,
+      "won": 1,
+      "lost": 0,
+      "trumpWon": 1,
+      "trumpLost": "0",
+      "totalPoints": 1,
+      "urlLogo": "./assets/img/logos/logo6.png"
+    },
+    {
+      "id": "2",
+      "groupName": "Group A",
+      "teamName": "Team13",
+      "nickName": "SPARTANS",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo13.png"
+    },
+    {
+      "id": "3",
+      "groupName": "Group A",
+      "teamName": "Team11",
+      "nickName": "Smash11",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo11.png"
+    },
+    {
+      "id": "4",
+      "groupName": "Group A",
+      "teamName": "Team4",
+      "nickName": "V R MASS PP(L)",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo4.png"
+    },
+    {
+      "id": "5",
+      "groupName": "Group B",
+      "teamName": "Team2",
+      "nickName": "Dare Doubles",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo2.png"
+    },
+    {
+      "id": "6",
+      "groupName": "Group B",
+      "teamName": "Team8",
+      "nickName": "Shuttlers",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo8.png"
+    },
+    {
+      "id": "7",
+      "groupName": "Group B",
+      "teamName": "Team12",
+      "nickName": "Hercules",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo12.png"
+    },
+    {
+      "id": "8",
+      "groupName": "Group B",
+      "teamName": "Team10",
+      "nickName": "BEN-10",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo10.png"
+    },
+    {
+      "id": "9",
+      "groupName": "Group C",
+      "teamName": "Team3",
+      "nickName": "Smash Wizards",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo3.png"
+    },
+    {
+      "id": "10",
+      "groupName": "Group C",
+      "teamName": "Team15",
+      "nickName": "Rohit",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo15.png"
+    },
+    {
+      "id": "11",
+      "groupName": "Group C",
+      "teamName": "Team14",
+      "nickName": "SwAG Swingers",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo14.png"
+    },
+    {
+      "id": "12",
+      "groupName": "Group C",
+      "teamName": "Team16",
+      "nickName": "Serves You Right!",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo16.png"
+    },
+    {
+      "id": "13",
+      "groupName": "Group D",
+      "teamName": "Team5",
+      "nickName": "Shuttle Swaggers",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo5.png"
+    },
+    {
+      "id": "14",
+      "groupName": "Group D",
+      "teamName": "Team9",
+      "nickName": "Racketeers",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo9.png"
+    },
+    {
+      "id": "15",
+      "groupName": "Group D",
+      "teamName": "Team7",
+      "nickName": "Shuttle Smashers",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo7.png"
+    },
+    {
+      "id": "16",
+      "groupName": "Group D",
+      "teamName": "Team1",
+      "nickName": "Hot Shots",
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
+      "trumpLost": "0",
+      "totalPoints": "0",
+      "urlLogo": "./assets/img/logos/logo1.png"
+    }
+  ],
+  "userDetailsG": [
+    {
+      "id": "1",
+      "groupTeams": [
+        {
+          "teamName": "Team6",
+          "nickName": "Lords of the Strings",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo6.png"
+        },
+        {
+          "teamName": "Team13",
+          "nickName": "SPARTANS",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo13.png"
+        },
+        {
+          "teamName": "Team11",
+          "nickName": "Smash11",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo11.png"
+        },
+        {
+          "teamName": "Team4",
+          "nickName": "V R MASS PP(L)",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo4.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "groupTeams": [
+        {
+          "teamName": "Team2",
+          "nickName": "Dare Doubles",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo2.png"
+        },
+        {
+          "teamName": "Team8",
+          "nickName": "Shuttlers",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo8.png"
+        },
+        {
+          "teamName": "Team12",
+          "nickName": "Hercules",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo12.png"
+        },
+        {
+          "teamName": "Team10",
+          "nickName": "BEN-10",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo10.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "groupTeams": [
+        {
+          "teamName": "Team3",
+          "nickName": "Smash Wizards",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo3.png"
+        },
+        {
+          "teamName": "Team15",
+          "nickName": "Rohit",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo15.png"
+        },
+        {
+          "teamName": "Team14",
+          "nickName": "SwAG Swingers",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo14.png"
+        },
+        {
+          "teamName": "Team16",
+          "nickName": "Serves You Right!",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo16.png"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "groupTeams": [
+        {
+          "id": "1",
+          "teamName": "Team5",
+          "nickName": "Shuttle Swaggers",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo5.png"
+        },
+        {
+          "id": "2",
+          "teamName": "Team9",
+          "nickName": "Racketeers",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo9.png"
+        },
+        {
+          "teamName": "Team7",
+          "nickName": "Shuttle Smashers",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo7.png"
+        },
+        {
+          "teamName": "Team1",
+          "nickName": "Hot Shots",
+          "played": "0",
+          "won": "0",
+          "lost": "0",
+          "trumpWon": "0",
+          "trumpLost": "0",
+          "totalPoints": "0",
+          "urlLogo": "./assets/img/logos/logo1.png"
+        }
+      ]
+    }
+  ]
+}

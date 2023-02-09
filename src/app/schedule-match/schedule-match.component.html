@@ -1,0 +1,48 @@
+<div class="main-content reset-margin">
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-header card-header-info">
+        <h4 class="card-title">{{matchData.groupName}}</h4>
+        <p class="card-category">{{matchData.matchNumber}}</p>
+      </div>
+      <div class="col-md-12 padding-2 container custom-container" *ngIf="matchData">
+        <div class="row row-style">
+          <div class="col-md-4">
+            {{matchData.team1}}
+          </div>
+          <div class="col-md-4 row-style">
+            V/S
+          </div>
+          <div class="col-md-4 row-style">
+            {{matchData.team2}}
+          </div>
+        </div>
+        <div class="row result-header">
+          <div class="col-md-3">
+            Category
+          </div>
+          <div class="col-md-3">
+            Player1
+          </div>
+          <div class="col-md-3">
+            Player2
+          </div>
+        </div>
+        <div class="row result-content" *ngFor="let matchDetails of matchData.matchDetails">
+          <div class="col-md-3">
+            {{matchDetails.category}}
+          </div>
+          <div class="col-md-3">
+            <input type="text" [(ngModel)]="matchDetails.team1Players" class="form-control" placeholder="Team1">
+          </div>
+          <div class="col-md-3">
+            <input type="text" [(ngModel)]="matchDetails.team2Players" class="form-control" placeholder="Team1">
+          </div>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success btn-lg btn-block" (click)="scheduleMatch(fixtureDetails)">Schedule</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

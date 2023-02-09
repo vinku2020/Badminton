@@ -57,8 +57,10 @@
                                                 {{group.status}}
                                             </td>
                                             <td>
-                                                <button (click)="showInput(group.matchNumber)"> show</button>
-                                                <button (click)="hideDetails()"> Hide</button>
+                                                <button class="btn btn-info btn-lg btn-block" *ngIf="group.status === 'Completed'" (click)="showInput(group.matchNumber)"> show</button>
+                                                <button class="btn btn-info btn-lg btn-block" *ngIf="group.status === 'Completed'" (click)="hideDetails()"> Hide</button>
+                                                <!-- <button *ngIf="group.status === 'Not scheduled'" (click)="scheduleMatch(group.id)"> Schedule match</button> -->
+                                                <!-- <button *ngIf="group.status === 'In progress'" (click)="updateResult(group.id)"> Update result</button> -->
                                             </td>
                                         </tr>
                                         <tr *ngFor="let game of group.matchDetails" id="{{group.matchNumber}}">
@@ -88,7 +90,7 @@
                                      </ng-container>
                                 </tbody>
                             </table>
-                            <app-group-stage-fixture></app-group-stage-fixture>
+                            <app-group-stage-fixture *ngIf="addNewMatch"></app-group-stage-fixture>
                         </div>
                     </mat-tab>
                     <mat-tab label="KnockOut stage">Content 2</mat-tab>

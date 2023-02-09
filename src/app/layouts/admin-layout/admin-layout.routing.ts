@@ -9,6 +9,9 @@ import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { GroupStageFixtureComponent } from '../../group-stage-fixture/group-stage-fixture.component';
+import { UpdateMatchResultComponent } from '../../update-match-result/update-match-result.component';
+import { ScheduleMatchComponent } from '../../schedule-match/schedule-match.component';
+import { AdminComponent } from '../../admin/admin.component';
 
 export const AdminLayoutRoutes: Routes = [
     // {
@@ -61,5 +64,10 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
-    { path: 'addGroupFixture', component: GroupStageFixtureComponent}
+    { path: 'addGroupFixture', component: GroupStageFixtureComponent},
+    // { path: 'updateResult', component: UpdateMatchResultComponent},
+    { path: 'updateResult/:id', component: UpdateMatchResultComponent },
+    { path: 'scheduleMatch/:id', component:ScheduleMatchComponent},
+    { path: 'admin', component:AdminComponent}
+
 ];

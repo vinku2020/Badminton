@@ -19,6 +19,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import { MatTabsModule } from '@angular/material/tabs';
+import { UpdateMatchResultComponent } from '../../update-match-result/update-match-result.component';
+import { ScheduleMatchComponent } from '../../schedule-match/schedule-match.component';
+import { AdminComponent } from '../../admin/admin.component';
 
 @NgModule({
   imports: [
@@ -40,10 +43,13 @@ import { MatTabsModule } from '@angular/material/tabs';
     TableListComponent,
     TypographyComponent,
     GroupStageFixtureComponent,
+    UpdateMatchResultComponent,
+    ScheduleMatchComponent,
     IconsComponent,
     MapsComponent,
     NotificationsComponent,
     UpgradeComponent,
+    AdminComponent
   ]
 })
 

@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import { GroupStageFixture } from 'app/model/group.stage.fixture.model';
 import { IconDetails } from 'app/model/icon.profile.model';
 import { RestService } from 'app/services/rest.service';
@@ -11,8 +12,9 @@ import { concatMap, map, toArray } from 'rxjs';
 })
 export class TypographyComponent implements OnInit {
 
-  constructor(private restService: RestService) { }
+  constructor(private restService: RestService, public router: Router) { }
 
+  addNewMatch = true;
   icons: IconDetails;
   iconList = [ {
     name:'Lords of the Strings',
@@ -109,5 +111,11 @@ export class TypographyComponent implements OnInit {
     let icons = this.iconList.find(o => o.name === teamName)
     return icons.iconUrl;
   }
-  
+  scheduleMatch(id) {
+    this.router.navigate(['/scheduleMatch/'+id]);
+  }
+
+  updateResult(id) {
+    this.router.navigate(['/updateResult/'+id]);
+  }
 }

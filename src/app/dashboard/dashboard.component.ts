@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { AllTeamProfile } from 'app/model/team.profile.model';
-import { RestService } from 'app/services/rest.service';
+import { GroupProfile } from '../model/group.profile.model';
+import { AllTeamProfile } from '../model/team.profile.model';
+import { RestService } from '../services/rest.service';
 import * as Chartist from 'chartist';
 import { concatMap, map, toArray } from 'rxjs';
 
@@ -13,15 +14,20 @@ export class DashboardComponent implements OnInit {
 
   constructor(private restService: RestService) { }
   allTeamProfile: AllTeamProfile[];
+  public teamProfile: any = {};
+  // getuserProfile() {
+  //   return this.restService.get('allTeamProfile')
+  //   .pipe(
+  //       concatMap((res: any) => res.userDetails),
+  //       map(userDetails => new AllTeamProfile(userDetails)),
+  //       toArray()
+  //     );
+  // }
 
   getuserProfile() {
-    return this.restService.get('allTeamProfile')
-    .pipe(
-        concatMap((res: any) => res.userDetails),
-        map(userDetails => new AllTeamProfile(userDetails)),
-        toArray()
-      );
+    return this.restService.get('groupTeams');
   }
+
   startAnimationForLineChart(chart){
       let seq: any, delays: any, durations: any;
       seq = 0;
@@ -81,7 +87,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     this.getuserProfile()
       .subscribe((data) => {
-        this.allTeamProfile = data;
+        this.teamProfile = data;
       });
       /* ----------==========     Daily Sales Chart initialization For Documentation    ==========---------- */
 

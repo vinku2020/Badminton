@@ -1,14 +1,14 @@
 <div class="main-content">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6" *ngFor="let eachTeam of allTeamProfile">
+          <div class="col-lg-3 col-md-3 col-sm-3" *ngFor="let eachTeam of teamProfile">
               <div class="card card-stats">
                   <div class="card-header card-header-warning card-header-icon">
                       <div class="card-icon">
                         <img  class="images" src="{{eachTeam.urlLogo}}"/>
                       </div>
                       <p class="card-category">{{eachTeam.groupName}}</p>
-                      <h3 class="card-title">{{eachTeam.teamName}}</h3>
+                      <h3 class="card-title">{{eachTeam.nickName}}</h3>
                   </div>
                   <div class="card-footer">
                       <div class="stats row">
@@ -16,10 +16,15 @@
                             Score
                         </div>
                         <div class="score_split">
-                            <a href="javascript:void(0)">{{eachTeam.score}}</a>
+                            <span>{{eachTeam.played}} - </span>
+                            <span>{{eachTeam.won}} - </span>
+                            <span>{{eachTeam.lost}} - </span>
+                            <span>{{eachTeam.trumpWon}} - </span>
+                            <span>{{eachTeam.trumpLost}}</span>
                         </div>
+                        <!--  -->
                         <div class="score">
-                            {{eachTeam.finalScore}}
+                            {{eachTeam.totalPoints}}
                         </div>
                       </div>
                   </div>

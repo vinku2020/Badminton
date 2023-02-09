@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { GroupProfile } from 'app/model/group.profile.model';
 import { TeamProfile } from 'app/model/user.profile.model';
 import { RestService } from 'app/services/rest.service';
@@ -12,21 +12,23 @@ import { concatMap, map, toArray } from 'rxjs';
 export class TableListComponent implements OnInit {
 
   constructor(private restService: RestService) { }
-  public teamProfile: GroupProfile[];
+  @Input() teamProfile: any = {};;
+  @Input() editable = false;
+  @Input() group ='default';
 
-  getuserProfile() {
-    return this.restService.get('groupDetails')
-    .pipe(
-        concatMap((res: any) => res.userDetails),
-        map(userDetails => new GroupProfile(userDetails)),
-        toArray()
-      );
-  }
 
   ngOnInit() {
-    this.getuserProfile()
+    if(this.teamProfile?.groupName) {
+
+    } else {
+      this.getuserProfile()
       .subscribe((data) => {
         this.teamProfile = data;
       });
+    }
+  }
+
+  getuserProfile() {
+    return this.restService.get('groupTeams');
   }
 }
