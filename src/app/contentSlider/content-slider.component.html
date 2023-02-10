@@ -1,0 +1,391 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row mySlides" *ngIf="group === 'default' || group === 'Group A'">
+            <div class="col-md-12" >
+                <div class="card">
+                    <div class="card-header card-header-info">
+                        <h4 class="card-title ">GROUP A</h4>
+                        <p class="card-category"> Here is a subtitle for this table</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>
+                                        Logo
+                                    </th>
+                                    <th>
+                                        Team name
+                                    </th>
+                                    <th>
+                                        Nick name
+                                    </th>
+                                    <th>
+                                        Played
+                                    </th>
+                                    <th>
+                                        Won
+                                    </th>
+                                    <th>
+                                        Lost
+                                    </th>
+                                    <th>
+                                        TMW
+                                    </th>
+                                    <th>
+                                        TML
+                                    </th>
+                                    <th>
+                                        Total
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <ng-container *ngFor="let eachGroup of teamProfile" >
+                                    <tr *ngIf="eachGroup.groupName === 'Group A'">
+                                        <td>
+                                            <img class="images" src="{{eachGroup.urlLogo}}" />
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.teamName}}
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.nickName}}
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.played}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.played" class="form-control" placeholder="Played">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.won}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.won" class="form-control" placeholder="Won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.lost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.lost" class="form-control" placeholder="Lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpWon}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpWon" class="form-control" placeholder="Trump won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpLost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpLost" class="form-control" placeholder="Trump lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="text-primary padding-td">
+                                            {{eachGroup.totalPoints}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.totalPoints" class="form-control" placeholder="Total points">
+                                        </td>
+                                    </tr>
+                                </ng-container>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mySlides" *ngIf="group === 'default' || group === 'Group B'">
+            <div class="col-md-12" >
+                <div class="card">
+                    <div class="card-header card-header-info">
+                        <h4 class="card-title ">GROUP B</h4>
+                        <p class="card-category"> Here is a subtitle for this table</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>
+                                        Logo
+                                    </th>
+                                    <th>
+                                        Team name
+                                    </th>
+                                    <th>
+                                        Nick name
+                                    </th>
+                                    <th>
+                                        Played
+                                    </th>
+                                    <th>
+                                        Won
+                                    </th>
+                                    <th>
+                                        Lost
+                                    </th>
+                                    <th>
+                                        TMW
+                                    </th>
+                                    <th>
+                                        TML
+                                    </th>
+                                    <th>
+                                        Total
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <ng-container *ngFor="let eachGroup of teamProfile" >
+                                    <tr *ngIf="eachGroup.groupName === 'Group B'">
+                                        <td>
+                                            <img class="images" src="{{eachGroup.urlLogo}}" />
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.teamName}}
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.nickName}}
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.played}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.played" class="form-control" placeholder="Played">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.won}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.won" class="form-control" placeholder="Won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.lost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.lost" class="form-control" placeholder="Lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpWon}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpWon" class="form-control" placeholder="Trump won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpLost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpLost" class="form-control" placeholder="Trump lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="text-primary padding-td">
+                                            {{eachGroup.totalPoints}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.totalPoints" class="form-control" placeholder="Total points">
+                                        </td>
+                                    </tr>
+                                </ng-container>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mySlides" *ngIf="group === 'default' || group === 'Group C'">
+            <div class="col-md-12" >
+                <div class="card">
+                    <div class="card-header card-header-info">
+                        <h4 class="card-title ">GROUP C</h4>
+                        <p class="card-category"> Here is a subtitle for this table</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>
+                                        Logo
+                                    </th>
+                                    <th>
+                                        Team name
+                                    </th>
+                                    <th>
+                                        Nick name
+                                    </th>
+                                    <th>
+                                        Played
+                                    </th>
+                                    <th>
+                                        Won
+                                    </th>
+                                    <th>
+                                        Lost
+                                    </th>
+                                    <th>
+                                        TMW
+                                    </th>
+                                    <th>
+                                        TML
+                                    </th>
+                                    <th>
+                                        Total
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <ng-container *ngFor="let eachGroup of teamProfile" >
+                                    <tr *ngIf="eachGroup.groupName === 'Group C'">
+                                        <td>
+                                            <img class="images" src="{{eachGroup.urlLogo}}" />
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.teamName}}
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.nickName}}
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.played}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.played" class="form-control" placeholder="Played">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.won}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.won" class="form-control" placeholder="Won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.lost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.lost" class="form-control" placeholder="Lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpWon}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpWon" class="form-control" placeholder="Trump won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpLost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpLost" class="form-control" placeholder="Trump lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="text-primary padding-td">
+                                            {{eachGroup.totalPoints}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.totalPoints" class="form-control" placeholder="Total points">
+                                        </td>
+                                    </tr>
+                                </ng-container>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mySlides" *ngIf="group === 'default' || group === 'Group D'">
+            <div class="col-md-12" >
+                <div class="card">
+                    <div class="card-header card-header-info">
+                        <h4 class="card-title ">GROUP D</h4>
+                        <p class="card-category"> Here is a subtitle for this table</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>
+                                        Logo
+                                    </th>
+                                    <th>
+                                        Team name
+                                    </th>
+                                    <th>
+                                        Nick name
+                                    </th>
+                                    <th>
+                                        Played
+                                    </th>
+                                    <th>
+                                        Won
+                                    </th>
+                                    <th>
+                                        Lost
+                                    </th>
+                                    <th>
+                                        TMW
+                                    </th>
+                                    <th>
+                                        TML
+                                    </th>
+                                    <th>
+                                        Total
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <ng-container *ngFor="let eachGroup of teamProfile" >
+                                    <tr *ngIf="eachGroup.groupName === 'Group D'">
+                                        <td>
+                                            <img class="images" src="{{eachGroup.urlLogo}}" />
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.teamName}}
+                                        </td>
+                                        <td class="padding-td">
+                                            {{eachGroup.nickName}}
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.played}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.played" class="form-control" placeholder="Played">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.won}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.won" class="form-control" placeholder="Won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.lost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.lost" class="form-control" placeholder="Lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpWon}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpWon" class="form-control" placeholder="Trump won">
+                                        </td>
+                                        <td *ngIf="!editable" class="padding-td">
+                                            {{eachGroup.trumpLost}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.trumpLost" class="form-control" placeholder="Trump lost">
+                                        </td>
+                                        <td *ngIf="!editable" class="text-primary padding-td">
+                                            {{eachGroup.totalPoints}}
+                                        </td>
+                                        <td *ngIf="editable" class="padding-td">
+                                            <input type="number" [(ngModel)]="eachGroup.totalPoints" class="form-control" placeholder="Total points">
+                                        </td>
+                                    </tr>
+                                </ng-container>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -14,7 +14,7 @@ export class TypographyComponent implements OnInit {
 
   constructor(private restService: RestService, public router: Router) { }
 
-  addNewMatch = true;
+  addNewMatch = false;
   icons: IconDetails;
   iconList = [ {
     name:'Lords of the Strings',

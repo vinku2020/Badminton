@@ -12,6 +12,9 @@ import { GroupStageFixtureComponent } from '../../group-stage-fixture/group-stag
 import { UpdateMatchResultComponent } from '../../update-match-result/update-match-result.component';
 import { ScheduleMatchComponent } from '../../schedule-match/schedule-match.component';
 import { AdminComponent } from '../../admin/admin.component';
+import { LoginComponent } from 'app/login/login.component';
+import { ExpenseGuard } from 'app/expense.guard';
+import { ContentSliderComponent } from 'app/contentSlider/content-slider.component';
 
 export const AdminLayoutRoutes: Routes = [
     // {
@@ -64,10 +67,12 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
-    { path: 'addGroupFixture', component: GroupStageFixtureComponent},
+    { path: 'addGroupFixture', component: GroupStageFixtureComponent, canActivate: [ExpenseGuard] },
     // { path: 'updateResult', component: UpdateMatchResultComponent},
-    { path: 'updateResult/:id', component: UpdateMatchResultComponent },
-    { path: 'scheduleMatch/:id', component:ScheduleMatchComponent},
-    { path: 'admin', component:AdminComponent}
-
+    { path: 'updateResult/:id', component: UpdateMatchResultComponent, canActivate: [ExpenseGuard] },
+    { path: 'scheduleMatch/:id', component:ScheduleMatchComponent, canActivate: [ExpenseGuard] },
+    { path: 'admin', component:AdminComponent, canActivate: [ExpenseGuard] },
+    { path: 'login', component:LoginComponent},
+    { path: '', pathMatch: 'full', redirectTo: 'dashboard'},
+    { path: 'slide', component: ContentSliderComponent}
 ];

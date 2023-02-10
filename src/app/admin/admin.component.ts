@@ -2,6 +2,7 @@ import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthService } from 'app/auth.service';
 import { TeamProfile, UserProfile } from 'app/model/user.profile.model';
 import { RestService } from 'app/services/rest.service';
 import { BehaviorSubject, concatMap, map, tap, toArray } from 'rxjs';
@@ -13,7 +14,7 @@ import { BehaviorSubject, concatMap, map, tap, toArray } from 'rxjs';
 })
 export class AdminComponent implements OnInit {
 
-  constructor(private restService: RestService, public router: Router) { }
+  constructor(private restService: RestService, public router: Router, private authService : AuthService,) { }
   public teamProfile: TeamProfile;
   showUpdateScore: boolean;
   showScheduleMatch = true;
@@ -96,4 +97,8 @@ export class AdminComponent implements OnInit {
     });
   }
 
+  logout() {
+      this.authService.logout();
+      this.router.navigate(['/dashboard']);
+  }
 }

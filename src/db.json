@@ -1,82 +1,9 @@
 {
-  "employees": [
+  "users": [
     {
-      "id": 2,
-      "name": "Black Widowasdf",
-      "email": "black-widow@mcu.com",
-      "phone": "001-123-4568"
-    },
-    {
-      "name": "Digamber Singhaa",
-      "email": "digambersingh126@gmail.com",
-      "phone": "09717172811",
-      "id": 4
-    },
-    {
-      "name": "Digamber Singh",
-      "email": "digambersingh126@gmail.com",
-      "phone": "09717172811",
-      "id": 5
-    },
-    {
-      "name": "Software AG",
-      "email": "vinay.k899@gmail.com",
-      "phone": "+919620563925",
-      "id": 6
-    },
-    {
-      "matchNumber": "M3",
-      "groupName": "GroupC",
-      "team1": "Test1",
-      "team2": "Test2",
-      "score": "V/S",
-      "team1Logo": "",
-      "team2Logo": "",
-      "winner": "",
-      "matchDetails": [
-        {
-          "category": "MX",
-          "team1Players": "",
-          "team2Players": "",
-          "team1Score": "",
-          "team2Score": ""
-        },
-        {
-          "category": "MS1",
-          "team1Players": "",
-          "team2Players": "",
-          "team1Score": "",
-          "team2Score": ""
-        },
-        {
-          "category": "MS2",
-          "team1Players": "",
-          "team2Players": "",
-          "team1Score": "",
-          "team2Score": ""
-        },
-        {
-          "category": "WS",
-          "team1Players": "",
-          "team2Players": "",
-          "team1Score": "",
-          "team2Score": ""
-        },
-        {
-          "category": "MD",
-          "team1Players": "",
-          "team2Players": "",
-          "team1Score": "",
-          "team2Score": ""
-        }
-      ],
-      "id": 7
-    },
-    {
-      "name": "asd",
-      "email": "asda",
-      "phone": "89",
-      "id": 8
+      "email": "olivier@mail.com",
+      "password": "$2a$10$obX9t2qZWggMK2hYixQfWeyT7cA.Y4b9Iem83ntTQ3m4UqIVmj08.",
+      "id": 1
     }
   ],
   "userDetails": [
@@ -207,41 +134,41 @@
       "matchDetails": [
         {
           "category": "MX",
-          "team1Players": "vinay",
-          "team2Players": "player2",
+          "team1Players": "a",
+          "team2Players": "a",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MS1",
-          "team1Players": "player",
-          "team2Players": "sadf",
+          "team1Players": "a",
+          "team2Players": "a",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MS2",
-          "team1Players": "asd",
-          "team2Players": "asd",
+          "team1Players": "a",
+          "team2Players": "a",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "WS",
-          "team1Players": "asd",
-          "team2Players": "asd",
+          "team1Players": "a",
+          "team2Players": "a",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MD",
-          "team1Players": "asd",
-          "team2Players": "asd",
+          "team1Players": "a",
+          "team2Players": "a",
           "team1Score": "",
           "team2Score": ""
         }
       ],
-      "status": "Completed"
+      "status": "In progress"
     },
     {
       "id": 2,
@@ -257,41 +184,41 @@
       "matchDetails": [
         {
           "category": "MX",
-          "team1Players": "Player1",
-          "team2Players": "Player2",
-          "team1Score": "21",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MS1",
-          "team1Players": "Player11",
-          "team2Players": "Player21",
-          "team1Score": "21",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MS2",
-          "team1Players": "Player12",
-          "team2Players": "Player22",
-          "team1Score": "21",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "WS",
-          "team1Players": "Player13",
-          "team2Players": "Player23",
-          "team1Score": "21",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MD",
-          "team1Players": "Player14",
-          "team2Players": "Player24",
-          "team1Score": "21",
+          "team1Players": "",
+          "team2Players": "",
+          "team1Score": "",
           "team2Score": ""
         }
       ],
-      "status": "Completed"
+      "status": "Not scheduled"
     },
     {
       "matchNumber": "M3",
@@ -305,41 +232,41 @@
       "matchDetails": [
         {
           "category": "MD",
-          "team1Players": "prasal",
-          "team2Players": "vikneshwar",
+          "team1Players": "",
+          "team2Players": "",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MS1",
-          "team1Players": "vinay & pooj",
-          "team2Players": "Sharath",
+          "team1Players": "",
+          "team2Players": "",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MS2",
-          "team1Players": "Santhosh",
-          "team2Players": "raj",
+          "team1Players": "",
+          "team2Players": "",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "WS",
-          "team1Players": "asd",
-          "team2Players": "ds",
+          "team1Players": "",
+          "team2Players": "",
           "team1Score": "",
           "team2Score": ""
         },
         {
           "category": "MD",
-          "team1Players": "sd",
-          "team2Players": "sd",
+          "team1Players": "",
+          "team2Players": "",
           "team1Score": "",
           "team2Score": ""
         }
       ],
-      "status": "Completed",
+      "status": "Not scheduled",
       "id": 3
     },
     {
@@ -1378,12 +1305,12 @@
       "groupName": "Group A",
       "teamName": "Team6",
       "nickName": "Lords of the Strings",
-      "played": 1,
-      "won": 1,
-      "lost": 0,
-      "trumpWon": 1,
+      "played": "0",
+      "won": "0",
+      "lost": "0",
+      "trumpWon": "0",
       "trumpLost": "0",
-      "totalPoints": 1,
+      "totalPoints": "0",
       "urlLogo": "./assets/img/logos/logo6.png"
     },
     {

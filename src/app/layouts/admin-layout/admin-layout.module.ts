@@ -22,6 +22,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { UpdateMatchResultComponent } from '../../update-match-result/update-match-result.component';
 import { ScheduleMatchComponent } from '../../schedule-match/schedule-match.component';
 import { AdminComponent } from '../../admin/admin.component';
+import { LoginComponent } from '../../login/login.component';
+import { ContentSliderComponent } from '../../contentSlider/content-slider.component';
 
 @NgModule({
   imports: [
@@ -49,7 +51,9 @@ import { AdminComponent } from '../../admin/admin.component';
     MapsComponent,
     NotificationsComponent,
     UpgradeComponent,
-    AdminComponent
+    AdminComponent,
+    LoginComponent,
+    ContentSliderComponent
   ]
 })
 
