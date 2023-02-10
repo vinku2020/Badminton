@@ -39,108 +39,110 @@
 
         </mat-tab>
         <mat-tab label="Update Points Table">
-            <div class="row">
-                <div class="col-md-3">
-                    Enter team number
-                    <input type="text" [(ngModel)]="teamid" class="form-control" placeholder="MatchNumber">
+            <div class="padding-complet">
+                <div class="row">
+                    <div class="col-md-3">
+                        Enter team number
+                        <input type="text" [(ngModel)]="teamid" class="form-control" placeholder="MatchNumber">
+                    </div>
+                    <div class="form-group col-md-*">
+                        <button class="btn btn-info btn-lg btn-block" (click)="getGroupTable()">Get details</button>
+                    </div>
                 </div>
-                <div class="form-group col-md-*">
-                    <button class="btn btn-info btn-lg btn-block" (click)="getGroupTable()">Get details</button>
-                </div>
-            </div>
-            <div class="row" *ngIf="pointsTableDisplay">
-                <div class="col-md-12" >
-                    <div class="card">
-                        <div class="card-header card-header-info">
-                            <h4 class="card-title ">{{pointsTable.groupName}}</h4>
-                            <p class="card-category"> Here is a subtitle for this table</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead class=" text-primary">
-                                        <th>
-                                            Logo
-                                        </th>
-                                        <th>
-                                            Team name
-                                        </th>
-                                        <th>
-                                            Nick name
-                                        </th>
-                                        <th>
-                                            Played
-                                        </th>
-                                        <th>
-                                            Won
-                                        </th>
-                                        <th>
-                                            Lost
-                                        </th>
-                                        <th>
-                                            TMW
-                                        </th>
-                                        <th>
-                                            TML
-                                        </th>
-                                        <th>
-                                            Total
-                                        </th>
-                                    </thead>
-                                    <tbody>
-                                        <ng-container>
-                                        <tr>
-                                            <td>
-                                                <img class="images" src="{{pointsTable.urlLogo}}" />
-                                            </td>
-                                            <td class="padding-td">
-                                                {{pointsTable.teamName}}
-                                            </td>
-                                            <td class="padding-td">
-                                                {{pointsTable.nickName}}
-                                            </td>
-                                            <td *ngIf="!editable" class="padding-td">
-                                                {{pointsTable.played}}
-                                            </td>
-                                            <td *ngIf="editable" class="padding-td">
-                                                <input type="number" [(ngModel)]="pointsTable.played" class="form-control" placeholder="Played">
-                                            </td>
-                                            <td *ngIf="!editable" class="padding-td">
-                                                {{pointsTable.won}}
-                                            </td>
-                                            <td *ngIf="editable" class="padding-td">
-                                                <input type="number" [(ngModel)]="pointsTable.won" class="form-control" placeholder="Won">
-                                            </td>
-                                            <td *ngIf="!editable" class="padding-td">
-                                                {{pointsTable.lost}}
-                                            </td>
-                                            <td *ngIf="editable" class="padding-td">
-                                                <input type="number" [(ngModel)]="pointsTable.lost" class="form-control" placeholder="Lost">
-                                            </td>
-                                            <td *ngIf="!editable" class="padding-td">
-                                                {{pointsTable.trumpWon}}
-                                            </td>
-                                            <td *ngIf="editable" class="padding-td">
-                                                <input type="number" [(ngModel)]="pointsTable.trumpWon" class="form-control" placeholder="Trump won">
-                                            </td>
-                                            <td *ngIf="!editable" class="padding-td">
-                                                {{pointsTable.trumpLost}}
-                                            </td>
-                                            <td *ngIf="editable" class="padding-td">
-                                                <input type="number" [(ngModel)]="pointsTable.trumpLost" class="form-control" placeholder="Trump lost">
-                                            </td>
-                                            <td *ngIf="!editable" class="text-primary padding-td">
-                                                {{pointsTable.totalPoints}}
-                                            </td>
-                                            <td *ngIf="editable" class="padding-td">
-                                                <input type="number" [(ngModel)]="pointsTable.totalPoints" class="form-control" placeholder="Total points">
-                                            </td>
-                                        </tr>
-                                    </ng-container>
-                                    </tbody>
-                                </table>
-                                <div class="form-group col-md-*">
-                                    <button class="btn btn-info btn-lg btn-block" (click)="updateResult()">Update result</button>
+                <div class="row" *ngIf="pointsTableDisplay">
+                    <div class="col-md-12" >
+                        <div class="card">
+                            <div class="card-header card-header-info">
+                                <h4 class="card-title ">{{pointsTable.groupName}}</h4>
+                                <p class="card-category"> Here is a subtitle for this table</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead class=" text-primary">
+                                            <th>
+                                                Logo
+                                            </th>
+                                            <th>
+                                                Team name
+                                            </th>
+                                            <th>
+                                                Nick name
+                                            </th>
+                                            <th>
+                                                Played
+                                            </th>
+                                            <th>
+                                                Won
+                                            </th>
+                                            <th>
+                                                Lost
+                                            </th>
+                                            <th>
+                                                TMW
+                                            </th>
+                                            <th>
+                                                TML
+                                            </th>
+                                            <th>
+                                                Total
+                                            </th>
+                                        </thead>
+                                        <tbody>
+                                            <ng-container>
+                                            <tr>
+                                                <td>
+                                                    <img class="images" src="{{pointsTable.urlLogo}}" />
+                                                </td>
+                                                <td class="padding-td">
+                                                    {{pointsTable.teamName}}
+                                                </td>
+                                                <td class="padding-td">
+                                                    {{pointsTable.nickName}}
+                                                </td>
+                                                <td *ngIf="!editable" class="padding-td">
+                                                    {{pointsTable.played}}
+                                                </td>
+                                                <td *ngIf="editable" class="padding-td">
+                                                    <input type="number" [(ngModel)]="pointsTable.played" class="form-control" placeholder="Played">
+                                                </td>
+                                                <td *ngIf="!editable" class="padding-td">
+                                                    {{pointsTable.won}}
+                                                </td>
+                                                <td *ngIf="editable" class="padding-td">
+                                                    <input type="number" [(ngModel)]="pointsTable.won" class="form-control" placeholder="Won">
+                                                </td>
+                                                <td *ngIf="!editable" class="padding-td">
+                                                    {{pointsTable.lost}}
+                                                </td>
+                                                <td *ngIf="editable" class="padding-td">
+                                                    <input type="number" [(ngModel)]="pointsTable.lost" class="form-control" placeholder="Lost">
+                                                </td>
+                                                <td *ngIf="!editable" class="padding-td">
+                                                    {{pointsTable.trumpWon}}
+                                                </td>
+                                                <td *ngIf="editable" class="padding-td">
+                                                    <input type="number" [(ngModel)]="pointsTable.trumpWon" class="form-control" placeholder="Trump won">
+                                                </td>
+                                                <td *ngIf="!editable" class="padding-td">
+                                                    {{pointsTable.trumpLost}}
+                                                </td>
+                                                <td *ngIf="editable" class="padding-td">
+                                                    <input type="number" [(ngModel)]="pointsTable.trumpLost" class="form-control" placeholder="Trump lost">
+                                                </td>
+                                                <td *ngIf="!editable" class="text-primary padding-td">
+                                                    {{pointsTable.totalPoints}}
+                                                </td>
+                                                <td *ngIf="editable" class="padding-td">
+                                                    <input type="number" [(ngModel)]="pointsTable.totalPoints" class="form-control" placeholder="Total points">
+                                                </td>
+                                            </tr>
+                                        </ng-container>
+                                        </tbody>
+                                    </table>
+                                    <div class="form-group col-md-*">
+                                        <button class="btn btn-info btn-lg btn-block" (click)="updateResult()">Update result</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
