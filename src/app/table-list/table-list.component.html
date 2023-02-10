@@ -5,7 +5,7 @@
                 <div class="card">
                     <div class="card-header card-header-info">
                         <h4 class="card-title ">GROUP A</h4>
-                        <p class="card-category"> Here is a subtitle for this table</p>
+                        <!-- <p class="card-category"> Here is a subtitle for this table</p> -->
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -24,16 +24,19 @@
                                         Played
                                     </th>
                                     <th>
-                                        Won
+                                        Match Won
                                     </th>
                                     <th>
-                                        Lost
+                                        Match Lost
                                     </th>
                                     <th>
                                         TMW
                                     </th>
                                     <th>
                                         TML
+                                    </th>
+                                    <th>
+                                        TIE won
                                     </th>
                                     <th>
                                         Total
@@ -81,6 +84,9 @@
                                         <td *ngIf="editable" class="padding-td">
                                             <input type="number" [(ngModel)]="eachGroup.trumpLost" class="form-control" placeholder="Trump lost">
                                         </td>
+                                        <td *ngIf="!editable" class="padding-td text-primary">
+                                            {{eachGroup.tieWon}}
+                                        </td>
                                         <td *ngIf="!editable" class="text-primary padding-td">
                                             {{eachGroup.totalPoints}}
                                         </td>
@@ -102,7 +108,7 @@
                 <div class="card">
                     <div class="card-header card-header-info">
                         <h4 class="card-title ">GROUP B</h4>
-                        <p class="card-category"> Here is a subtitle for this table</p>
+                        <!-- <p class="card-category"> Here is a subtitle for this table</p> -->
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -199,7 +205,7 @@
                 <div class="card">
                     <div class="card-header card-header-info">
                         <h4 class="card-title ">GROUP C</h4>
-                        <p class="card-category"> Here is a subtitle for this table</p>
+                        <!-- <p class="card-category"> Here is a subtitle for this table</p> -->
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -296,7 +302,7 @@
                 <div class="card">
                     <div class="card-header card-header-info">
                         <h4 class="card-title ">GROUP D</h4>
-                        <p class="card-category"> Here is a subtitle for this table</p>
+                        <!-- <p class="card-category"> Here is a subtitle for this table</p> -->
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">

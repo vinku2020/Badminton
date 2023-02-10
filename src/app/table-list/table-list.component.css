@@ -5,3 +5,7 @@
 .padding-td {
     padding: 0.75rem;
 }
+
+.text-primary {
+    font-weight: 800;
+}

@@ -26,7 +26,9 @@
 }
 
 .padding-top-15 {
-    padding-top: 15px;
+    font-size: 100px;
+    height: 200px;
+    padding-top: 100px;
     padding-left: 15px;
     font-weight: 600;
 }

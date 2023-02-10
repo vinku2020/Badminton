@@ -46,7 +46,7 @@ export class ContentSliderComponent implements OnInit {
   }
 
   getuserProfile() {
-    return this.restService.get('groupTeams');
+    return this.restService.get('groupTeams?_sort=tieWon,totalPoints&_order=desc,desc');
   }
 
   showSlides() {

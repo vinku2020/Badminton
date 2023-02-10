@@ -1311,6 +1311,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo6.png"
     },
     {
@@ -1324,6 +1325,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo13.png"
     },
     {
@@ -1337,6 +1339,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo11.png"
     },
     {
@@ -1350,6 +1353,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo4.png"
     },
     {
@@ -1363,6 +1367,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo2.png"
     },
     {
@@ -1376,6 +1381,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo8.png"
     },
     {
@@ -1389,6 +1395,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo12.png"
     },
     {
@@ -1402,6 +1409,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo10.png"
     },
     {
@@ -1415,6 +1423,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo3.png"
     },
     {
@@ -1428,6 +1437,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo15.png"
     },
     {
@@ -1441,6 +1451,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo14.png"
     },
     {
@@ -1454,6 +1465,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo16.png"
     },
     {
@@ -1467,6 +1479,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo5.png"
     },
     {
@@ -1480,6 +1493,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo9.png"
     },
     {
@@ -1493,6 +1507,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo7.png"
     },
     {
@@ -1506,6 +1521,7 @@
       "trumpWon": "0",
       "trumpLost": "0",
       "totalPoints": "0",
+      "tieWon":"0",
       "urlLogo": "./assets/img/logos/logo1.png"
     }
   ],
